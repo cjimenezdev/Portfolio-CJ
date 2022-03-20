@@ -3,7 +3,8 @@
         "home": "HOME",
         "about": "ABOUT ME",
         "services": "SERVICES",
-        "portfolio": "PORTFOLIO"
+        "portfolio": "PORTFOLIO",
+        "contact":"CONTACT ME"
     },
     "profile": {
         "rol": "Web Developer",
