@@ -3,7 +3,8 @@
         "home": "INICIO",
         "about": "SOBRE MI",
         "services": "SERVICIOS",
-        "portfolio": "PORTAFOLIO"
+        "portfolio": "PORTAFOLIO",
+        "contact": "CONTÁCTAME"
     },
     "profile": {
         "rol": "Desarrollador Web",
