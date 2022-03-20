@@ -3,7 +3,7 @@ const moon_sun = document.querySelector(".moon__sun"),
     flags = document.getElementById("flags");
 const textsChange = document.querySelectorAll("[data-section]");
 const languageChange = async language => {
-    const requestJson = await fetch(`/app/resources/json/${language}.json`);
+    const requestJson = await fetch(`./app/resources/json/${language}.json`);
     const texts = await requestJson.json();
     for (const textsChanges of textsChange) {
         const section = textsChanges.dataset.section;
