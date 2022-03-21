@@ -121,7 +121,6 @@ html {
     bottom: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    transition: 0.5s ease-in;
 }
 
 .section.back__section {
