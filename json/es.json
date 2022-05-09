@@ -1,0 +1,56 @@
+{
+    "sidebar": {
+        "home": "INICIO",
+        "about": "SOBRE MI",
+        "services": "SERVICIOS",
+        "portfolio": "PORTAFOLIO"
+    },
+    "profile": {
+        "rol": "Desarrollador Web",
+        "description": "Experiencia en Html, CSS, JS, PHP. Librerias de diseño como: Bootstrap v5, Materialize Css.<br><br> Creación de sitios web, sistemas web, landing page, ecommerce, adaptables a cualquier dispositivo.",
+        "who": "Soy",
+        "hello": "Hola, mi nombre es",
+        "first-name": "Carlos Jiménez"
+    },
+
+    "about": {
+        "title": "SOBRE ",
+        "title-2": "MI",
+        "who": "Soy",
+        "history": "",
+        "dev": "Desarrollador: ",
+        "age": "Age: ",
+        "nationality": "Nacionalidad: ",
+        "cellphone": "Celular: ",
+        "email": "Email: ",
+        "freelance": "Autónomo: ",
+        "age-re": "   26 años",
+        "nationality-re": "   Ecuatoriano",
+        "freelance-re": "   Disponible",
+        "btn-download": "Descargar CV "
+    },
+
+    "services": {
+        "title": "MIS ",
+        "title-2": "SERVICIOS",
+        "subtitle": "Todos los servicios",
+        "desing": "Diseño de aplicaciones web de forma adaptable para cualquier dispositivo.<br><br>Flexibilidad y calidad en la maquetación del diseño.",
+        "update": "Actualizaciones de páginas web, un nuevo estilo e imagen al diseño de tu sitio web.<br><br>Mejoras en la estructura e interfaz de usuario.",
+        "maintenance": "Mantenimiento periódico y soporte de aplicaciones web.<br><br>Detalles adicionales y configuraciones a pedido del cliente."
+    },
+
+    "portfolio": {
+        "title": "MI ",
+        "title-2": "PORTAFOLIO",
+        "subtitle": "Mi trabajo"
+    },
+
+    "contact": {
+        "title": "CONTÁCTA",
+        "title-2": "ME",
+        "subtitle": "Detalles de contacto"
+    },
+    "footer": {
+        "all": "Todos los derechos reservados."
+    }
+}
