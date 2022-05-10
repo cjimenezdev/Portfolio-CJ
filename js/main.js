@@ -27,9 +27,9 @@ function enviarCorreo(){
 	$('.alerta_enviado').css('display','none');
 	$('.alerta_error').css('display','none');
 	
-	var correo = $("#correo").val();
-	var mensaje = $("#mensaje").val();
-	var nombre = $("#nombre").val();
+	var correo = $("#email").val();
+	var mensaje = $("#msg").val();
+	var nombre = $("#user").val();
     var asunto = $("#asunto").val();
 	var valido = 1;
 	var validacion_correo = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
@@ -45,7 +45,7 @@ function enviarCorreo(){
 	}
 
 	if (valido == 1) {
-		var datos = 'correo=' + correo + '&mensaje=' + mensaje + '&nombre=' + nombre  + '&asunto=' + asunto ;
+		var datos = 'email=' + correo + '&msg=' + mensaje + '&user=' + nombre  + '&asunto=' + asunto ;
         $.ajax({
 			type: "POST",
 			url: "contact.php",
