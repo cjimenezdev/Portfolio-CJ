@@ -367,25 +367,38 @@
                                             <div class="row pt-4">
                                                 <div class=" col-12">
                                                     <div class="card">
-                                                        <form action="" class="p-5" method="POST">
+                                                        <div class="alert alert-success alerta_enviado" role="alert">
+        ¡Mensaje enviado con éxito!
+    </div>
+    <div class="alert alert-danger alerta_error" role="alert">
+        ¡Error, mensaje no enviado!
+    </div>
+                                                        <form action="" class="p-5" method="POST" autocomplete="off" validate>
                                                             <div class="form__outline mb-4">
-                                                                <input type="text" id="user" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <input type="text" id="user" class="form__input" autocomplete="off" placeholder=" " pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{4,35}" required>
                                                                 <label for="user" class="form__label">Nombres y Apellidos</label>
                                                             </div>
                                                             <div class="form__outline mb-4">
-                                                                <input type="email" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <input type="email" id="email" class="form__input" autocomplete="off" placeholder=" " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                                                                 <label for="email" class="form__label">Correo</label>
                                                             </div>
+                                                            <h6 class="alert alert-danger alerta_correo" role="alert" data-mdb-color="danger">
+                                        El formato del correo es inválido
+                                    </h6>
+
                                                             <div class="form__outline mb-4">
-                                                                <input type="text" id="cellphone" class="form__input" autocomplete="off" placeholder=" ">
-                                                                <label for="cellphone" class="form__label">Celular</label>
+                                                                <input type="text" id="asunto" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <label for="asunto" class="form__label">Asunto</label>
                                                             </div>
 
                                                             <div class="form__outline mb-4">
                                                                 <textarea class="form__input" type="text" name="msg" id="msg" rows="4" placeholder=" "></textarea>
                                                                 <label class="form__label" for="msg">Mensaje</label>
                                                             </div>
-                                                            <button type="submit" class="btn bage download mb-4 mt-0">Enviar <img src="./img/contact/send.png" class="img-fluid" width="20px" alt=""></button>
+                                                            <h6 class="alert alert-danger alerta_mensaje" role="alert" data-mdb-color="danger">
+                                        El formato del mensaje es inválido
+                                    </h6>
+                                                            <button type="button" onclick="enviarCorreo();" class="btn bage download mb-4 mt-0">Enviar <img src="./img/contact/send.png" class="img-fluid" width="20px" alt=""></button>
                                                         </form>
                                                     </div>
                                                 </div>
