@@ -2,10 +2,66 @@
 @import url('http://fonts.cdnfonts.com/css/helveticaneuecyr-2');
 @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @font-face {
-    font-family: 'Cut the crap';
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    src: local('Cut the crap'), url('https://fonts.cdnfonts.com/s/27242/Cut the crap.woff') format('woff');
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-R.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-RI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-L.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-LI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-M.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-MI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-B.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-BI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Condensed'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-C.woff') format('woff');
 }
 *,
 ::after,
@@ -56,7 +112,7 @@ body {
     font-size: 14px !important;
     display: block;
     height: 100vh;
-    font-family: 'HelveticaNeueCyr', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif !important;
     letter-spacing: normal;
     color: var(--blue-dark) !important;
 }
