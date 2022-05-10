@@ -225,7 +225,11 @@ svg .circle {
 .card h6 {
     padding: 1rem;
 }
-
+.alert {
+    display: none;
+    font-size:10px !important;
+    padding:.5rem 1rem !important;
+}
 
 /* SIDEBAR */
 
