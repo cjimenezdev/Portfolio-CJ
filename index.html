@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="google-site-verification" content="GHUgig4LgWTQaglWHJOslZQTkqQzwfXXzcdZ-mS9zYg" />
+    <link rel="icon" href="./img/sidebar/ico.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <script src="./js/jquery.min.js"></script>
+    <title>Carlos Jiménez | Diseño web | Desarrollo web |</title>
+</head>
+
+<body class="dark">
+    <!-- Precarga -->
+    <div class="preloader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- /Precarga -->
+
+    <!-- Wrapper -->
+    <div class="flex-column flex-root" id="wrapper">
+
+        <!-- Sidenav -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar__logo">
+                <h1 class="logo-title">CJIMENEZ</h1>
+            </div>
+            <div class="sidebar__toggle">
+                <span class="menu__icon">
+            <i class="fas "></i></span>
+            </div>
+            <ul class="sidebar__menu">
+                <li>
+                    <a href="#home" class="active">
+                        <i class="fi fi-sr-home"></i><span data-section="sidebar" data-value="home">INICIO</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="fi fi-sr-portrait"></i><span data-section="sidebar" data-value="about">SOBRE MÍ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        <i class="fi fi-sr-browser"></i><span data-section="sidebar" data-value="services">SERVICIOS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portafolio">
+                        <i class="fi fi-sr-briefcase"></i><span data-section="sidebar" data-value="portfolio">PORTAFOLIO</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <i class="fi fi-sr-call-history"></i><span data-section="sidebar" data-value="contact">CONTACTO</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /Sidebar -->
+        <div class="d-flex flex-column flex-row-fluid page">
+
+            <!-- Page-content -->
+            <div class="d-flex flex-column page__content">
+                <div class="d-flex flex-column" id="page-content">
+
+                    <!-- Section Home -->
+                    <section class="home section" id="home">
+                        <div class="content__home">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="row">
+                                        <div class="title__home">
+                                            <h1 data-value="hello" data-section="profile">¡Hola!, mi nombre es</h1>
+                                            <span data-value="first-name" data-section="profile">Carlos Jimenez</span>
+                                        </div>
+                                        <div class="subtitle__home">
+                                            <h3 data-section="profile" data-value="who">Soy </h3>
+                                            <span data-section="profile" data-value="rol" class="typed">Desarrollador Web</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="info__home">
+                                            <p data-section="profile" data-value="description">Experiencia en Html, CSS, JS, PHP. Librerías de diseño como: Bootstrap v5, Materialise Css.<br><br>Creación de sitios web, sistemas web, landing page, ecommerce, adaptables a cualquier dispositivo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="img-fluid">
+                                        <img src="./img/home/bg.gif" alt="" class="avatar img-fluid">
+                                    </div>
+                                    <div class="img-fluid" style="width: fit-content;">
+                                        <img src="./img/home/bg.gif" alt="" class="img-fluid bg_avatar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- /Section Home -->
+                    </section>
+                    <!-- Section About -->
+                    <section class="about section hide" id="about">
+                        <div class="container-fluid m-auto">
+                            <div class="content__about">
+                                <div class="row">
+                                    <div class="title__about">
+                                        <h1 data-section="about" data-value="title">SOBRE </h1>
+                                        <h1 data-section="about" data-value="title-2" style="color: var(--home-info);margin-left: 0.5rem;"> MÍ</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="subtitle__about d-flex">
+                                        <h2 data-section="about" data-value="who">Soy</h2>
+                                        <h2 style="margin-left: 0.5rem;">Carlos Jiménez</h2>
+                                    </div>
+                                </div>
+                                <div class="pt-2 pb-3">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <p data-section="about" data-value="dev" class="about__detalls">Desarrollador:</p>
+                                                    <span class="p-1 rounded-pill badge-danger about__data">   Junior</span>
+                                                </div>
+                                                <div class="col-6 col-lg-6">
+                                                    <p data-section="about" data-value="age" class="about__detalls">Edad: </p><span data-section="about" data-value="age-re" class="about__data"> 26 años</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <p data-section="about" data-value="nationality" class="about__detalls">Nacionalidad:</p>
+                                                    <span data-section="about" data-value="nationality-re" class="about__data">   Ecuatoriano</span>
+                                                </div>
+                                                <div class="col-6 col-lg-6">
+                                                    <p data-section="about" data-value="cellphone" class="about__detalls">Télefono: </p><span class="about__data">   +593967370109</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p data-section="about" data-value="email" class="about__detalls">Correo: </p><span class="about__data">   carlosjimenez32077@gmail.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6 col-lg-6">
+                                                    <p data-section="about" data-value="location" class="about__detalls">Ubicación: </p><span class="about__data">   Zamora - Ecuador</span>
+                                                </div>
+                                                <div class="col-6 col-lg-6">
+                                                    <p data-section="about" data-value="freelance" class="about__detalls">Freelance: </p><span data-section="about" data-value="freelance-re" class="about__data p-1 rounded-pill badge-success">   Available</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <a type="button" href="#" download="#" class="btn download">
+                                                        <span do data-section="about" data-value="btn-download">Download CV <img src="./app/resources/img/about/download.png" class="img-fluid" alt=""></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">HTML</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 90%; background: var(--mdb-html);" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">CSS</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 70%; background-color: var(--mdb-css);" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">JS</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 50%;background: var(--mdb-js);" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">PHP</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 40%; background-color: var(--mdb-php);" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">Bootstrap</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 85%; background: var(--mdb-bootstrap);" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="about__skills">Materialize Css</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-animated" role="progressbar" style="width: 30%; background: var(--mdb-materialize);" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Section About -->
+                    </section>
+                    <!-- Section Services -->
+                    <section class="services section hide" id="services">
+                        <div class="container-fluid m-auto">
+                            <div class="content__services">
+                                <div class="row">
+                                    <div class="title__services">
+                                        <h1 data-section="services" data-value="title-2">SERVICIOS</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="subtitle__services">
+                                        <h2 data-section="services" data-value="subtitle">Todos los servicios</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <span class="services__img"><img src="./img/services/web.png" class="img-fluid" alt="">
+                                        </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p data-section="services" data-value="desing">Diseño de aplicaciones web de forma adaptable para cualquier dispositivo.<br><br>Flexibilidad y calidad en la maquetación del diseño.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <span class="services__img"><img src="./img/services/password.png" class="img-fluid" alt="">
+                                        </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p data-section="services" data-value="update">Actualizaciones de páginas web, un nuevo estilo e imagen al diseño de su sitio web.<br><br> Mejoras en la estructura e interfaz de usuario.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <span class="services__img"><img src="./img/services/web-browser.png" class="img-fluid" alt="">
+                                        </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p data-section="services" data-value="maintenance">Mantenimiento y soporte periódico de aplicaciones web.<br><br> Detalles y configuraciones adicionales a solicitud del cliente.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Section Services -->
+                    </section>
+
+                    <!-- Section Portfolio -->
+                    <section class="portafolio section hide" id="portafolio">
+                        <div class="container-fluid m-auto">
+                            <div class="content__portafolio">
+                                <div class="row">
+                                    <div class="title__portafolio">
+                                        <h1 data-section="portfolio" data-value="title-2">PORTAFOLIO</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="subtitle__portafolio">
+                                        <h2 data-section="portfolio" data-value="subtitle">Mi trabajo</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card">
+                                            <a href="#" target="_blank" alt="Restaurante App" title="Restaurante App">
+                                                <img src="./img/portfolio/restaurant-app.jpg" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Section Portfolio -->
+                    </section>
+                    <!-- //Section Portfolio -->
+                    <!-- Section Contacts -->
+                    <section class="section contact hide" id="contact">
+                        <div class="container-fluid m-auto">
+                            <div class="content__contact">
+                                <div class="row">
+                                    <div class="title__contact">
+                                        <h1 data-section="contact" data-value="title">CONTÁCTAME</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="subtitle__contact">
+                                        <h2 data-section="contact" data-value="subtitle">Detalles del contacto</h2>
+                                    </div>
+                                </div>
+                                <div class="pt-4 pb-4 pt-lg-5">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-sm-6 col-12">
+                                            <div class="contact_content_icon">
+                                                <div class="row">
+                                                    <div class="col-12 col-sm-6">
+                                                        <div class="contact__img_data mb-lg-4">
+                                                            <div class="contact__img">
+                                                                <img src="./img/contact/map.png" class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="contact__data">
+                                                                <span>Zamora Chinchipe</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="contact__img_data">
+                                                            <div class="contact__img">
+                                                                <img src="./img/contact/contact-info.png" class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="contact__data">
+                                                                <span>+593967370109</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6">
+                                                        <div class="contact__img_data mb-lg-4 ms-lg.4">
+                                                            <div class="contact__img">
+                                                                <img src="./img/contact/presentation.png" class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="contact__data">
+                                                                <span><a style="color: var(--home-info);" href="https://c-jimenez95.github.io/Jimenez/" target="_blank">c-jimenez95.github.io/</a></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="contact__img_data ms-lg-4">
+                                                            <div class="contact__img">
+                                                                <img src="./img/contact/email.png" class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="contact__data">
+                                                                <span>carlosjimenez32077@gmail.com</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-sm-6 col-12">
+                                            <div class="row pt-4">
+                                                <div class=" col-12">
+                                                    <div class="card">
+                                                        <form action="" class="p-5" method="POST">
+                                                            <div class="form__outline mb-4">
+                                                                <input type="text" id="user" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <label for="user" class="form__label">Nombres y Apellidos</label>
+                                                            </div>
+                                                            <div class="form__outline mb-4">
+                                                                <input type="email" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <label for="email" class="form__label">Correo</label>
+                                                            </div>
+                                                            <div class="form__outline mb-4">
+                                                                <input type="text" id="cellphone" class="form__input" autocomplete="off" placeholder=" ">
+                                                                <label for="cellphone" class="form__label">Celular</label>
+                                                            </div>
+
+                                                            <div class="form__outline mb-4">
+                                                                <textarea class="form__input" type="text" name="msg" id="msg" rows="4" placeholder=" "></textarea>
+                                                                <label class="form__label" for="msg">Mensaje</label>
+                                                            </div>
+                                                            <button type="submit" class="btn bage download mb-4 mt-0">Enviar <img src="./img/contact/send.png" class="img-fluid" width="20px" alt=""></button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- //Section Contacts -->
+                    <!--Footer-->
+                    <footer class="footer">
+                        <!-- Copyright -->
+                        <div class="footer__content">
+                            <span>© 2022<a class="font-weight-bold" style="color: var(--svg);"> Carlos Jiménez</a><br><a data-section="footer" data-value="all" href="#" class="font-weight-bold" style="color: var(--svg); font-size: 10px;">Todos los derechos reservados.</a></span>
+                        </div>
+                        <!-- Copyright -->
+                    </footer>
+                    <!--Footer-->
+                </div>
+                <!-- /Page-content -->
+            </div>
+        </div>
+    </div>
+    <!-- Wrapper -->
+    <!-- Scripts -->
+    <!-- MDB-->
+    <script src="./js/mdb.min.js"></script>
+    <!--/MDB-->
+    <!-- Main-->
+    <script src="./js/main.js"></script>
+    <!--/Main-->
+    <!-- App-->
+    <script src="./js/app.js"></script>
+    <!--/App-->
+    <!-- /Scripts-->
+</body>
+
+</html>
