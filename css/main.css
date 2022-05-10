@@ -212,7 +212,7 @@ svg .circle {
 
 .sidebar .sidebar__logo .logo-title {
     width: 100%;
-    font-family: 'Amateur Dirty', sans-serif;
+    font-family: 'Amateur Dirty', sans-serif !important;
     margin: 0;
     padding-left: 1rem;
     color: rgb(231, 228, 228);
