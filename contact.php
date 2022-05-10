@@ -16,7 +16,7 @@ $nombre = $_POST['user'];
 		$message = $mensaje;
 		$headers = "From:" . $from;
 	
-	if( preg_match($patron_texto, $_POST['mensaje']) ){
+	if( preg_match($patron_texto, $_POST['msg']) ){
 	    
 	    if($correo != $to){
 	        if (mail($to,$subject,$message, $headers)) {
