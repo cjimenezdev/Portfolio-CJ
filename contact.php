@@ -12,8 +12,8 @@ $nombre = $_POST['user'];
     
 		$from = $nombre;
 		$to = "carlosjimenez1995@outlook.com";
-		$subject = $asunto." ". $correo;
-		$message = $mensaje;
+		$subject = $asunto;
+		$message = $mensaje."\n"."\r"."Correo personal: ". $correo;
 		$headers = "From:" . $from;
 	
 	if( preg_match($patron_texto, $_POST['msg']) ){
