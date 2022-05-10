@@ -4,14 +4,15 @@ if (isset($_POST['correo']) && isset($_POST['mensaje']) && isset($_POST['nombre'
     
   $patron_texto = "/^[a-zA-ZáéíóúÁÉÍÓÚäëïöüÄËÏÖÜàèìòùÀÈÌÒÙ.,\s]+$/";
     
-  $correo = $_POST['correo'];
-  $mensaje = $_POST['mensaje'];
-	$nombre = $_POST['nombre'];
+  $correo = $_POST['email'];
+  $mensaje = $_POST['msg'];
+$nombre = $_POST['user'];
+	$asunto = $_POST['asunto'];
     
     
 		$from = $nombre;
 		$to = "carlosjimenez1995@outlook.com";
-		$subject = "Nuevo mensaje de ". $correo;
+		$subject = $asunto." ". $correo;
 		$message = $mensaje;
 		$headers = "From:" . $from;
 	
