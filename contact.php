@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['correo']) && isset($_POST['mensaje']) && isset($_POST['nombre'])) {
+if (isset($_POST['email']) && isset($_POST['msg']) && isset($_POST['user'])) {
     
   $patron_texto = "/^[a-zA-ZáéíóúÁÉÍÓÚäëïöüÄËÏÖÜàèìòùÀÈÌÒÙ.,\s]+$/";
     
