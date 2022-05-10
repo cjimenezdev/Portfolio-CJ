@@ -9,66 +9,40 @@
 }
 
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'HelveticaNeueCyr';
     font-style: normal;
     font-weight: 400;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-R.woff') format('woff');
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/HelveticaNeueCyr-Roman.woff') format('woff');
 }
-
 @font-face {
-    font-family: 'Ubuntu';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-RI.woff') format('woff');
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 100;
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/helveticaneuecyr-thin.woff') format('woff');
 }
-
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 200;
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/HelveticaNeueCyr-UltraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'HelveticaNeueCyr';
     font-style: normal;
     font-weight: 300;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-L.woff') format('woff');
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/HelveticaNeueCyr-Light.woff') format('woff');
 }
-
 @font-face {
-    font-family: 'Ubuntu';
-    font-style: italic;
-    font-weight: 300;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-LI.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ubuntu';
+    font-family: 'HelveticaNeueCyr';
     font-style: normal;
-    font-weight: 500;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-M.woff') format('woff');
+    font-weight: 550;
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/helveticaneuecyr-medium.woff') format('woff');
 }
-
 @font-face {
-    font-family: 'Ubuntu';
-    font-style: italic;
-    font-weight: 500;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-MI.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ubuntu';
+    font-family: 'HelveticaNeueCyr';
     font-style: normal;
     font-weight: 700;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-B.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Ubuntu'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-BI.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ubuntu Condensed';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu Condensed'), url('https://fonts.cdnfonts.com/s/13098/Ubuntu-C.woff') format('woff');
+    src: local('HelveticaNeueCyr'), url('https://fonts.cdnfonts.com/s/13267/helveticaneuecyr-bold.woff') format('woff');
 }
 *,
 ::after,
@@ -119,7 +93,7 @@ body {
     font-size: 14px !important;
     display: block;
     height: 100vh;
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'HelveticaNeueCyr', sans-serif !important;
     letter-spacing: normal;
     color: var(--blue-dark) !important;
 }
