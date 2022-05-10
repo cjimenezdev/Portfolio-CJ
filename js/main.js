@@ -52,7 +52,7 @@ function enviarCorreo(){
 			data: datos,
 			success: function(res) {
 				if (parseInt(res) == 1) {
-				    let formulario = document.getElementById('formulario');
+				    let formulario = document.getElementById('form-contact');
                     formulario.reset();
                     
 				    $('.alerta_enviado').css('display','block');
